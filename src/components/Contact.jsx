@@ -27,6 +27,7 @@ export default function Contact() {
               type="text"
               id="fname"
               name="fname"
+              required
             />
           </div>
           <div className="flex flex-col gap-1.5 p-2 m-1">
@@ -36,6 +37,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
+              required
             />
           </div>
 
@@ -47,6 +49,7 @@ export default function Contact() {
               type="text"
               id="message"
               name="message"
+              required
             />
           </div>
 
