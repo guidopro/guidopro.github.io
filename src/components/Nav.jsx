@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 export default function Nav() {
   return (
     <nav className="grid grid-cols-3 divide-x-2 p-4 bg-linear-to-l from-cyan-800 to-blue-950 text-white">
-      <div className="flex justify-center">
+      <div className="flex justify-center hover:bg-amber-300/40 ">
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -27,7 +27,7 @@ export default function Nav() {
           Home
         </NavLink>
       </div>
-      <div className="flex justify-center gap-2.5">
+      <div className="flex justify-center  hover:bg-amber-300/40">
         <NavLink
           to="about"
           className={({ isActive }) =>
@@ -51,7 +51,7 @@ export default function Nav() {
           About
         </NavLink>
       </div>
-      <div className="flex justify-center gap-2.5">
+      <div className="flex justify-center hover:bg-amber-300/40">
         <NavLink
           to="contact"
           className={({ isActive }) =>
