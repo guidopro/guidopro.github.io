@@ -4,7 +4,8 @@ export default function Contact() {
       <div className=" flex justify-center bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
         <h2 className="text-2xl underline m-3 text-white">Contact</h2>
       </div>
-      <p className="flex justify-center text-center m-4 p-4 whitespace-pre">
+
+      <p className="flex flex-wrap justify-center text-center m-4 p-4 whitespace-pre">
         Contact me using the form below or directly at{" "}
         <a
           href="mailto:guyvmiddletob@gmail.com"
@@ -13,7 +14,8 @@ export default function Contact() {
           guyvmiddleton@gmail.com
         </a>
       </p>
-      <div className="flex justify-center w-full">
+
+      <div className="flex justify-center w-full mb-45">
         <form
           method="post"
           name="contact_form"

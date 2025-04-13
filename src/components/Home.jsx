@@ -11,16 +11,16 @@ export default function Home() {
       <div className="bg-[url(/src/assets/about_me_pic2.jpg)] bg-cover bg-center bg-fixed ">
         <div className="flex flex-col">
           <div className="flex justify-center m-3 p-7 ">
-            <p className="text-white text-5xl text-left text-shadow m-3">
+            <p className="text-white text-4xl text-left text-shadow m-3 bg-black/50 rounded-2xl p-1.5">
               Hello, my name is Guy and I am a Junior Software Developer.{" "}
               <br></br> Below are the latest projects I have worked on...
             </p>
           </div>
           <div className="flex flex-col justify-center m-3 p-7 ">
-            <h2 className="flex justify-center m-3 p-7 text-lg underline text-white  from-black/100 to-cyan-950/30 bg-linear-to-b rounded-2xl">
+            <h2 className="flex justify-center m-3 p-7 text-lg underline text-white  from-black/50 to-black/50 bg-linear-to-b rounded-2xl">
               Projects
             </h2>
-            <div className="flex flex-col justify-center m-3 p-7 from-black/100 to-cyan-950/50 bg-linear-to-br rounded-2xl">
+            <div className="flex flex-col justify-center m-3 p-7 from-black/50 to-black/10 bg-linear-to-br rounded-2xl">
               <a href="https://nc-news-guidopro.netlify.app/" target="_blank">
                 <h2 className="p-4 text-lg text-center text-white text-shadow-2xs hover:text-blue-500 hover:scale-110">
                   NC-News
@@ -30,7 +30,7 @@ export default function Home() {
                 <a href="https://nc-news-guidopro.netlify.app/" target="_blank">
                   <div className="bg-[url(https://nc-news-guidopro.netlify.app/world_travel_icon_134840.webp)] h-32 w-32 bg-contain bg-no-repeat bg-bg-center"></div>
                 </a>
-                <p className="text-sm w-4/5 text-white">
+                <p className="text-sm text-white">
                   NC News is a dynamic front-end web application modeled after a
                   social media-style news platform. Users can explore a variety
                   of articles, upvote their favourites, and engage in
@@ -58,7 +58,7 @@ export default function Home() {
                 </p>
               </span>
             </div>
-            <div className="flex flex-col justify-center m-3 p-7  from-black/100 to-cyan-950/30 bg-linear-to-bl  rounded-2xl">
+            <div className="flex flex-col justify-center m-3 p-7  from-black/50 to-cyan-950/30 bg-linear-to-bl  rounded-2xl">
               <a
                 href="https://northcoders.com/project-phase/safespace-parking"
                 target="_blank"
