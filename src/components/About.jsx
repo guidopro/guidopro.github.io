@@ -5,7 +5,7 @@ import CV from "./CV";
 export default function About() {
   return (
     <>
-      <div className="flex flex-col justify-center border-t-amber-950 ">
+      <div className="flex flex-col justify-center border-t-amber-950 bg-gray-700 ">
         <div className="flex justify-center bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
           <h2 className="text-2xl text-white underline m-3">About me</h2>
         </div>
@@ -25,7 +25,7 @@ export default function About() {
           </Link>
         </div>
         <div className="flex justify-center m-1 p-3 mb-25">
-          <p className="text-center m-3 p-3 w-[80%] md:w-[50%]">
+          <p className="text-center m-3 p-3 w-[80%] md:w-[50%] text-white">
             Hi, I'm Guy Middleton, a junior software developer based in
             Manchester, UK.
             <br /> <br />
