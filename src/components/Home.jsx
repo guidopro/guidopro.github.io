@@ -39,14 +39,14 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
-        <h1 className="flex justify-center m-3 text-2xl underline text-white">
-          Hello world!
+        <h1 className="flex justify-center m-3 text-2xl text-white">
+          Guy Middleton
         </h1>
       </div>
       <div className="bg-[url(/src/assets/about_me_pic2.jpg)] bg-cover bg-center bg-no-repeat">
         <div className="flex justify-center p-7 ">
           <p className="text-white text-3xl text-left text-shadow m-3 bg-black/50 rounded-2xl p-1.5 mt-100">
-            Hello, my name is Guy and I am a Junior Software Developer.{" "}
+            Hello, my name is Guy and I am a Software Developer.{" "}
           </p>
         </div>
       </div>

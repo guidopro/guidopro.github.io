@@ -3,13 +3,11 @@ import { NavLink } from "react-router";
 export default function Nav() {
   return (
     <nav className="grid grid-cols-3 divide-x-2 p-4 bg-linear-to-l from-cyan-800 to-blue-950 text-white">
-      <div className="flex justify-center hover:bg-amber-300/40 ">
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive ? "flex underline gap-2.5" : " flex text-white gap-2.5"
-          }
-        >
+      <NavLink
+        to="/"
+        className={({ isActive }) => (isActive ? "underline" : "")}
+      >
+        <div className="flex w-full justify-center hover:bg-black/20 gap-2.5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -25,15 +23,13 @@ export default function Nav() {
             />
           </svg>
           Home
-        </NavLink>
-      </div>
-      <div className="flex justify-center  hover:bg-amber-300/40">
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? "flex underline gap-2.5" : " flex text-white gap-2.5"
-          }
-        >
+        </div>
+      </NavLink>
+      <NavLink
+        to="about"
+        className={({ isActive }) => (isActive ? "underline" : "")}
+      >
+        <div className="flex w-full justify-center gap-2.5  hover:bg-black/20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -49,15 +45,13 @@ export default function Nav() {
             />
           </svg>
           About
-        </NavLink>
-      </div>
-      <div className="flex justify-center hover:bg-amber-300/40">
-        <NavLink
-          to="contact"
-          className={({ isActive }) =>
-            isActive ? "flex underline gap-2.5" : " flex text-white gap-2.5"
-          }
-        >
+        </div>
+      </NavLink>
+      <NavLink
+        to="contact"
+        className={({ isActive }) => (isActive ? "underline" : "")}
+      >
+        <div className="flex justify-center w-full gap-2.5 hover:bg-black/20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -73,8 +67,8 @@ export default function Nav() {
             />
           </svg>
           Contact
-        </NavLink>
-      </div>
+        </div>
+      </NavLink>
     </nav>
   );
 }
