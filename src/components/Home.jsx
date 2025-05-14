@@ -1,4 +1,3 @@
-import safespace from "../assets/splash-icon.png";
 import { Link } from "react-router";
 
 export default function Home() {
@@ -19,7 +18,10 @@ export default function Home() {
   );
 
   const SSP = (
-    <Link>
+    <a
+      href="https://www.northcoders.com/blog/student-projects-safespace-parking/"
+      target="_blank"
+    >
       <div className="flex justify-center">
         <div className="size-auto bg-white rounded-2xl transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:cursor-pointer ">
           <div className="bg-[url(/src/assets/SSP.png)] size-90 bg-cover bg-center bg-no-repeat rounded-t-2xl"></div>
@@ -31,7 +33,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </Link>
+    </a>
   );
 
   return (
