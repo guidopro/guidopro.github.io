@@ -5,7 +5,7 @@ export default function Contact() {
         <h2 className="text-2xl underline m-3 text-white">Contact</h2>
       </div>
 
-      <div className="bg-gray-700 pt-15 pb-25">
+      <div className="pt-15 pb-35">
         <p className="flex flex-wrap justify-center text-center p-4 whitespace-pre text-white">
           Contact me using the form below or directly at{" "}
           <a

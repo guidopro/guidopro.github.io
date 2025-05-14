@@ -1,16 +1,15 @@
 import { Link } from "react-router";
-import me from "../assets/cover_bg_2.jpg";
-import CV from "./CV";
+import meAgain from "../assets/cover_bg_2 copy.jpg";
 
 export default function About() {
   return (
     <>
-      <div className="flex flex-col justify-center border-t-amber-950 bg-gray-700 ">
+      <div className="flex flex-col justify-center border-t-amber-950">
         <div className="flex justify-center bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
           <h2 className="text-2xl text-white underline m-3">About me</h2>
         </div>
         <div className="flex justify-center m-3">
-          <img src={me} alt="me" className="w-50 m-3 rounded-md" />
+          <img src={meAgain} alt="me" className="w-100 m-3 rounded-md" />
         </div>
         <div className="flex justify-center m-3">
           <Link to="/contact">
@@ -35,10 +34,34 @@ export default function About() {
             <br /> I enjoy the process of learning and tackling complex
             problems, always seeking opportunities to improve my skills. I'm
             eager to take on new challenges and continue growing as a developer.
-            <br /> <br />
-            I also have a background in music production and composition. A
-            dedicated website for that side of my work is coming soon—stay
-            tuned!
+            <br />
+            <br />
+            GitHub:{" "}
+            <a
+              className="underline"
+              href="https://github.com/guidopro"
+              target="_blank"
+            >
+              github.com/guidopro
+            </a>
+            <br />
+            LinkedIn:{" "}
+            <a
+              className="underline"
+              href="https://linkedin.com/in/guy-middleton-dev"
+              target="_blank"
+            >
+              linkedin.com/in/guy-middleton-dev
+            </a>
+            <br /> <br />I also have a background in music production and
+            composition. Check out my music over at{" "}
+            <a
+              className="underline"
+              href="https://stateofjoy.co.uk"
+              target="_blank"
+            >
+              stateofjoy.co.uk
+            </a>
             <br /> <br />
             Feel free to reach out if you'd like to connect!
           </p>
