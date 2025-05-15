@@ -12,15 +12,17 @@ export default function About() {
           <img src={meAgain} alt="me" className="w-100 m-3 rounded-md" />
         </div>
         <div className="flex justify-center m-3">
-          <Link to="/contact">
-            <button className="m-3 p-1.5 text-white bg-amber-400 w-auto rounded-md hover:cursor-pointer hover:bg-amber-400/90 hover:scale-105 transition">
-              Contact me
-            </button>
+          <Link
+            to="/contact"
+            className="m-3 p-1.5 text-white bg-amber-400 w-auto rounded-md hover:cursor-pointer hover:bg-amber-400/90 hover:scale-105 transition"
+          >
+            Contact me
           </Link>
-          <Link to="/cv">
-            <button className="m-3 p-1.5 text-white bg-blue-700 rounded-md hover:cursor-pointer hover:bg-blue-700/90 hover:scale-105 transition">
-              View my CV
-            </button>
+          <Link
+            to="/cv"
+            className="m-3 p-1.5 text-white bg-blue-700 rounded-md hover:cursor-pointer hover:bg-blue-700/90 hover:scale-105 transition"
+          >
+            View my CV
           </Link>
         </div>
         <div className="flex justify-center m-1 p-3 mb-2">
