@@ -4,29 +4,28 @@ import meAgain from "../assets/cover_bg_2 copy.jpg";
 export default function About() {
   return (
     <>
-      <div className="flex flex-col justify-center border-t-amber-950">
+      <div className="flex flex-col grow min-h-screen border-t-amber-950">
         <div className="flex justify-center bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
-          <h2 className="text-2xl text-white underline m-3">About me</h2>
+          <h2 className="text-2xl text-white m-3">About me</h2>
         </div>
         <div className="flex justify-center m-3">
           <img src={meAgain} alt="me" className="w-100 m-3 rounded-md" />
         </div>
         <div className="flex justify-center m-3">
           <Link to="/contact">
-            <button className="m-3 p-1.5 border-2 text-white bg-amber-400 rounded-sm hover:cursor-pointer hover:bg-white hover:text-amber-400">
+            <button className="m-3 p-1.5 text-white bg-amber-400 w-auto rounded-md hover:cursor-pointer hover:bg-amber-400/90 hover:scale-105 transition">
               Contact me
             </button>
           </Link>
           <Link to="/cv">
-            <button className="m-3 p-1.5 border-2 text-white bg-blue-700 rounded-sm hover:cursor-pointer hover:bg-white hover:text-blue-700">
+            <button className="m-3 p-1.5 text-white bg-blue-700 rounded-md hover:cursor-pointer hover:bg-blue-700/90 hover:scale-105 transition">
               View my CV
             </button>
           </Link>
         </div>
-        <div className="flex justify-center m-1 p-3 mb-25">
+        <div className="flex justify-center m-1 p-3 mb-2">
           <p className="text-center m-3 p-3 w-[80%] md:w-[50%] text-white">
-            Hi, I'm Guy Middleton, a junior software developer based in
-            Manchester, UK.
+            Hi, I'm Guy Middleton, a software developer based in Manchester, UK.
             <br /> <br />
             I recently completed a 13-week full-time intensive bootcamp in
             JavaScript software development at Northcoders, where I gained

@@ -8,7 +8,7 @@ export default function NCNews() {
       <li className="group relative inline-block">
         <img
           className="size-10"
-          src="src/assets/JavaScript-B2gqmNKf.png"
+          src="/JavaScript-B2gqmNKf.png"
           alt="javascript-logo"
         />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
@@ -16,18 +16,14 @@ export default function NCNews() {
         </div>
       </li>
       <li className="group relative inline-block">
-        <img
-          className="size-10"
-          src="src/assets/node.js.svg"
-          alt="node.js-logo"
-        />
+        <img className="size-10" src="/node.js.svg" alt="node.js-logo" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           Node.js
         </div>
       </li>
       <li className="group relative inline-block">
         <img
-          src="src/assets/icons8-express-js.svg"
+          src="/icons8-express-js.svg"
           alt="express-logo"
           className="size-10"
         />
@@ -36,24 +32,20 @@ export default function NCNews() {
         </div>
       </li>
       <li className="group relative inline-block">
-        <img
-          src="src/assets/Postgresql.svg"
-          alt="PostgreSQL-logo"
-          className="size-10"
-        />
+        <img src="/Postgresql.svg" alt="PostgreSQL-logo" className="size-10" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           PostgreSQL
         </div>
       </li>
       <li className="group relative inline-block">
-        <img src="src/assets/jest.svg" alt="jest-logo" className="size-10" />
+        <img src="/jest.svg" alt="jest-logo" className="size-10" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           Jest
         </div>
       </li>
       <li className="group relative inline-block">
         <img
-          src="src/assets/supabase-DrHzjiH8.png"
+          src="/supabase-DrHzjiH8.png"
           alt="supabase-logo"
           className="size-10"
         />
@@ -69,7 +61,7 @@ export default function NCNews() {
       <li className="group relative inline-block">
         <img
           className="size-10"
-          src="src/assets/JavaScript-B2gqmNKf.png"
+          src="/JavaScript-B2gqmNKf.png"
           alt="javascript-logo"
         />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
@@ -77,33 +69,25 @@ export default function NCNews() {
         </div>
       </li>
       <li className="group relative inline-block">
-        <img src="src/assets/react.svg" alt="react-logo" className="size-10" />
+        <img src="/react.svg" alt="react-logo" className="size-10" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           React
         </div>
       </li>
       <li className="group relative inline-block">
-        <img className="size-10" src="src/assets/ReactRouter.svg" alt="" />
+        <img className="size-10" src="/ReactRouter.svg" alt="" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           React Router
         </div>
       </li>
       <li className="group relative inline-block">
-        <img
-          className="size-10"
-          src="src/assets/Tailwind.svg"
-          alt="tailwind-logo"
-        />
+        <img className="size-10" src="/Tailwind.svg" alt="tailwind-logo" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           TailwindCSS
         </div>
       </li>
       <li className="group relative inline-block">
-        <img
-          className="size-10"
-          src="src/assets/Netlify.svg"
-          alt="netlify-logo"
-        />
+        <img className="size-10" src="/Netlify.svg" alt="netlify-logo" />
         <div className="hidden group-hover:block absolute bg-gray-500 text-white p-2 rounded-lg">
           Netlify
         </div>
@@ -116,7 +100,7 @@ export default function NCNews() {
       <h2 className="text-black text-xl text-center m-6">
         Technical Implementation:
       </h2>
-      <div className="flex justify-start my-3">
+      <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>Framework: React Routing: React Router</li>
           <li>Styling: Tailwind CSS State</li>
@@ -131,7 +115,7 @@ export default function NCNews() {
         </ul>
       </div>
       <h2 className="text-black text-xl text-center m-6">Key Features:</h2>
-      <div className="flex justify-start my-3">
+      <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>View single articles with full content</li>
           <li>Dynamic article listing by topics or categories </li>
@@ -163,8 +147,8 @@ export default function NCNews() {
           </li>
         </ul>
       </div>
-      <div className="flex justify-center gap-2.5">
-        <button className="m-3 p-1.5 border-2 text-white bg-amber-400 rounded-sm hover:cursor-pointer hover:bg-white hover:text-amber-400">
+      <div className="flex justify-center gap-2.5 m-6">
+        <button className="m-3 p-1.5 text-white bg-amber-400 w-auto rounded-md hover:cursor-pointer hover:bg-amber-400/90 hover:scale-105 transition">
           <a
             href="https://github.com/guidopro/fe-nc-news-website"
             target="_blank"
@@ -172,7 +156,7 @@ export default function NCNews() {
             Github
           </a>
         </button>
-        <button className="m-3 p-1.5 border-2 text-white bg-blue-700 rounded-sm hover:cursor-pointer hover:bg-white hover:text-blue-700">
+        <button className="m-3 p-1.5 text-white bg-blue-700 rounded-md hover:cursor-pointer hover:bg-blue-700/90 hover:scale-105 transition">
           <a
             href="https://nc-news-guidopro.netlify.app/articles"
             target="_blank"
@@ -189,7 +173,7 @@ export default function NCNews() {
       <h2 className="text-black text-xl text-center m-6">
         Technical Implementation:
       </h2>
-      <div className="flex justify-start my-3">
+      <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>Runtime: Node.js</li>
           <li>Framework: Express.js</li>
@@ -199,7 +183,7 @@ export default function NCNews() {
         </ul>
       </div>
       <h2 className="text-black text-xl text-center m-6">Key Features:</h2>
-      <div className="flex justify-start my-3">
+      <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>
             RESTful API with full CRUD functionality for:{" "}
@@ -224,7 +208,7 @@ export default function NCNews() {
       <h2 className="text-black text-xl text-center m-6">
         Engineering Approach:
       </h2>
-      <div className="flex justify-start my-3">
+      <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>
             Built a modular model-view-controller architecture for clean
@@ -241,13 +225,13 @@ export default function NCNews() {
           <li>Documented endpoints with clear usage instructions</li>
         </ul>
       </div>
-      <div className="flex justify-center gap-2.5">
-        <button className="m-3 p-1.5 border-2 text-white bg-amber-400 rounded-sm hover:cursor-pointer hover:bg-white hover:text-amber-400">
+      <div className="flex justify-center gap-2.5 m-6">
+        <button className="m-3 p-1.5 text-white bg-amber-400 w-auto rounded-md hover:cursor-pointer hover:bg-amber-400/90 hover:scale-105 transition">
           <a href="https://github.com/guidopro/nc-news-project" target="_blank">
             Github
           </a>
         </button>
-        <button className="m-3 p-1.5 border-2 text-white bg-blue-700 rounded-sm hover:cursor-pointer hover:bg-white hover:text-blue-700">
+        <button className="m-3 p-1.5 text-white bg-blue-700 rounded-md hover:cursor-pointer hover:bg-blue-700/90 hover:scale-105 transition">
           <a href="https://nc-news-guidopro.netlify.app/" target="_blank">
             Live Demo
           </a>

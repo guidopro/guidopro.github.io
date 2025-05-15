@@ -2,10 +2,10 @@ export default function Contact() {
   return (
     <>
       <div className=" flex justify-center bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
-        <h2 className="text-2xl underline m-3 text-white">Contact</h2>
+        <h2 className="text-2xl m-3 text-white">Contact</h2>
       </div>
 
-      <div className="pt-15 pb-35">
+      <div className="flex flex-col min-h-screen pt-15">
         <p className="flex flex-wrap justify-center text-center p-4 whitespace-pre text-white">
           Contact me using the form below or directly at{" "}
           <a
@@ -60,7 +60,7 @@ export default function Contact() {
               <input
                 type="submit"
                 value="Send"
-                className="bg-blue-500 text-white w-20 border rounded-md hover:cursor-pointer hover:scale-105 hover:bg-indigo-500 my-3 p-0.5 transition"
+                className="bg-blue-500 text-white w-20 border rounded-md hover:cursor-pointer hover:scale-105 hover:bg-indigo-500 m-3 p-1.5 transition"
               />
             </div>
           </form>

@@ -6,11 +6,13 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import CV from "./components/CV";
 import NCNews from "./components/NCNews";
+import ScrollToTop from "./utilities/PageScrollToTop";
 
 function App() {
   return (
     <>
       <Nav />
+      <ScrollToTop />
       <Routes>
         <Route index element={<Home />} />
         <Route path="nc-news" element={<NCNews />} />
