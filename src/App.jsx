@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import CV from "./components/CV";
 import NCNews from "./components/NCNews";
 import ScrollToTop from "./utilities/PageScrollToTop";
+import ScrollToTopButton from "./utilities/ScrollToTopButton";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="cv" element={<CV />} />
       </Routes>
+      {/* <ScrollToTopButton /> */}
       <Footer />
     </>
   );
