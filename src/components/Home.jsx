@@ -38,6 +38,43 @@ export default function Home() {
     </a>
   );
 
+  const hangman = (
+    <a
+      href="https://www.northcoders.com/blog/student-projects-safespace-parking/"
+      target="_blank"
+    >
+      <div className="flex justify-center">
+        <div className="size-auto rounded-2xl overflow-clip transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:cursor-pointer ">
+          <div className="bg-[url(/src/assets/hangman.png)] bg-white size-90 bg-contain bg-center bg-no-repeat"></div>
+          <div className="bg-white border-t-1 border-black p-7">
+            <h2 className="text-black text-lg text-center font-bold">
+              Hangman
+            </h2>
+            <p className="text-center text-sm font-light">Game</p>
+          </div>
+        </div>
+      </div>
+    </a>
+  );
+
+  const portfolio = (
+    <a href="https://stateofjoy.co.uk" target="_blank">
+      <div className="flex justify-center">
+        <div className="size-auto rounded-2xl overflow-clip transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:cursor-pointer ">
+          <div className="bg-[url(/src/assets/music-portfolio.png)] bg-white size-90 bg-cover bg-top bg-no-repeat"></div>
+          <div className="bg-white p-7">
+            <h2 className="text-black text-lg text-center font-bold">
+              Music Showcase
+            </h2>
+            <p className="text-center text-sm font-light">
+              Personal Portfolio Website
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+  );
+
   return (
     <>
       <div className="flex flex-col bg-linear-to-l from-cyan-800 to-blue-950 shadow-2xl">
@@ -65,6 +102,8 @@ export default function Home() {
         <div className="flex justify-center flex-wrap gap-10 mb-10">
           <div>{NCNews}</div>
           <div>{SSP}</div>
+          <div>{hangman}</div>
+          <div>{portfolio}</div>
         </div>
       </div>
     </>
