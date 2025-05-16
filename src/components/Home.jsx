@@ -39,10 +39,7 @@ export default function Home() {
   );
 
   const hangman = (
-    <a
-      href="https://www.northcoders.com/blog/student-projects-safespace-parking/"
-      target="_blank"
-    >
+    <a href="/hangman/" target="_blank" rel="noopener">
       <div className="flex justify-center">
         <div className="size-auto rounded-2xl overflow-clip transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:cursor-pointer ">
           <div className="bg-[url(/src/assets/hangman.png)] bg-white size-90 bg-contain bg-center bg-no-repeat"></div>
