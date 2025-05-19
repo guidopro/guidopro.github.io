@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build && cp dist/index.html dist/404.html",
+    "build:hangman": "cd hangman && npm install && npm run build",
+    "copy:hangman": "rm -rf dist/hangman && cp -r hangman/dist dist/hangman",
+    "predeploy": "npm run build && npm run build:hangman && npm run copy:hangman && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"

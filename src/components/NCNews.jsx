@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function NCNews() {
-  const [isFrontEnd, setIsFrontEnd] = useState(false);
+  const [isFrontEnd, setIsFrontEnd] = useState(true);
 
   const BETechStack = (
     <ul className="flex justify-center m-3 gap-3">
@@ -178,7 +178,7 @@ export default function NCNews() {
           <li>Runtime: Node.js</li>
           <li>Framework: Express.js</li>
           <li>Database: PostgreSQL</li>
-          <li>Testing: Jest</li>
+          <li>Testing: Jest & SuperTest</li>
           <li>Hosting: Render for API, Supabase for DB</li>
         </ul>
       </div>
@@ -251,12 +251,12 @@ export default function NCNews() {
           }
         ></div>
         <div className="flex justify-center gap-3 m-9">
-          <span>Back-End</span>
+          <span>Front-End</span>
           <label className="toggle-switch">
             <input type="checkbox" onClick={() => setIsFrontEnd(!isFrontEnd)} />
             <span className="slider"></span>
           </label>
-          <span>Front-End</span>
+          <span>Back-End</span>
         </div>
         <p className="text-sm text-black m-3 text-center">
           A social-media-style news platform where users can browse, vote on,
