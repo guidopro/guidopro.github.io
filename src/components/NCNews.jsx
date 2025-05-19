@@ -103,10 +103,10 @@ export default function NCNews() {
       <div className="flex justify-start">
         <ul className="list-disc list-inside text-black text-sm px-4">
           <li>Framework: React Routing: React Router</li>
-          <li>Styling: Tailwind CSS State</li>
+          <li>Styling: Tailwind CSS</li>
           <li>
-            Management: useState, useEffect, and prop-drilling for local state
-            management
+            State Management: useState, useEffect, and prop-drilling for local
+            state management
           </li>
           <li>
             {" "}
